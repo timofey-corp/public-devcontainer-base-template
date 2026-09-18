@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "/workspace"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(git reset:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(/workspace/.env)"
+    ]
+  }
+}
