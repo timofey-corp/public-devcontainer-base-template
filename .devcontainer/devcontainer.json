@@ -3,6 +3,7 @@
 {
 	"name": "Debian",
 	"image": "ghcr.io/timofey-corp/public-devcontainer-base-image:latest",
+	"initializeCommand": "docker pull ghcr.io/timofey-corp/public-devcontainer-base-image:latest || true",
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
 	"workspaceFolder": "/workspace",
 
